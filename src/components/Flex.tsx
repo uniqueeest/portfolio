@@ -20,7 +20,7 @@ export const Flex = ({
         flexDirection: direction,
         alignItems: align,
         justifyContent: justify,
-        gap: `${gap}px`,
+        gap: gap && `${gap}px`,
       }}
     >
       {children}
