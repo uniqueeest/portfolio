@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'TTLaundryGothicB';
+  src: url('/fonts/런드리고딕_Bold.woff') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTLaundryGothicR';
+  src: url('/fonts/런드리고딕_Regular.woff') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body,
 div,
@@ -125,4 +139,15 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-family: 'TTLaundryGothicB';
+}
+
+body {
+  font-family: 'TTLaundryGothicR';
 }
