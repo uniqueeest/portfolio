@@ -4,24 +4,73 @@ import { LIST_STYLE } from '@/constants/style';
 export const WorkExperience = () => {
   return (
     <Flex align="start" gap={12} className="text-18">
-      <SectionTitle className="text-blue" size="medium">
+      <SectionTitle
+        className="text-blue"
+        size="medium"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         Work Experience
       </SectionTitle>
-      <SectionTitle size="small" tag="h3">
+      <SectionTitle
+        size="small"
+        tag="h3"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         퀀터스 테크놀로지스
       </SectionTitle>
-      <span>Front-End Developer</span>
-      <span className="text-gray600">2023.08 ~ </span>
+      <span
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        Front-End Developer
+      </span>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        2023.08 ~{' '}
+      </span>
       <Spacing size={0} />
-      <span className="font-bold">Description</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="font-bold"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        Description
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           퀀트 투자 퀀터스의 웹 사이트 유지보수와 리팩토링을 진행하였고, 퀀트
           실전 투자 앱인 퀀터스 프라임을 설계하고 출시하였습니다.
         </li>
       </ul>
-      <span className="font-bold">What did I do</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="font-bold"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        What did I do
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           기존 퀀터스의 컴포넌트들은 디자인적으로 공통된 부분이 많아, 아토믹
           디자인 패턴을 적용하여 재사용성이 높은 컴포넌트를 구축함으로써 개발

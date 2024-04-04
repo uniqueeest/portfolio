@@ -5,10 +5,22 @@ import { cn } from '@/utils';
 export const Portfolio = () => {
   return (
     <Flex align="start" gap={12} className="text-18">
-      <SectionTitle className="text-blue" size="medium">
+      <SectionTitle
+        className="text-blue"
+        size="medium"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         Portfolio
       </SectionTitle>
-      <SectionTitle size="small" tag="h3">
+      <SectionTitle
+        size="small"
+        tag="h3"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         [K피노키오] 국회의원 공약 이행률 확인 사이트
       </SectionTitle>
       <a
@@ -16,6 +28,9 @@ export const Portfolio = () => {
         target="_blank"
         rel="noreferrer noopener"
         className={LINK_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
       >
         https://k-pinocchio.co.kr
       </a>
@@ -24,21 +39,61 @@ export const Portfolio = () => {
         target="_blank"
         rel="noreferrer noopener"
         className={cn('text-gray600', LINK_STYLE)}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
       >
         Github Link
       </a>
       <Spacing size={0} />
-      <span>사용기술 : Next js, Typescript, tailwind css</span>
-      <span className="text-gray600">2023.12.01 ~ 2024.04.03</span>
-      <span className="font-bold">Description</span>
-      <ul className={LIST_STYLE}>
+      <span
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        사용기술 : Next js, Typescript, tailwind css
+      </span>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        2023.12.01 ~ 2024.04.03
+      </span>
+      <span
+        className="font-bold"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        Description
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           총선을 앞두고 2030 세대들이 정치에 조금은 더 관심을 가졌으면 하는
           바람으로 국회의원의 공약이행률을 알려주는 웹 사이트를 제작하였습니다.
         </li>
       </ul>
-      <span className="font-bold">What did I do</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="font-bold"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        What did I do
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           탭 버튼, 아코디언 컴포넌트, 테이블 등의 컴포넌트들을 라이브러리를
           사용하지 않고 직접 구현했습니다.
@@ -54,9 +109,19 @@ export const Portfolio = () => {
         </li>
       </ul>
       <Spacing size={0} />
-      <Line />
+      <Line
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      />
       <Spacing size={0} />
-      <SectionTitle size="small" tag="h3">
+      <SectionTitle
+        size="small"
+        tag="h3"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         [마음이음] 봉사 커뮤니티 모집 플랫폼
       </SectionTitle>
       <a
@@ -64,6 +129,9 @@ export const Portfolio = () => {
         target="_blank"
         rel="noreferrer noopener"
         className={LINK_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
       >
         http://maumeum.site
       </a>
@@ -72,17 +140,50 @@ export const Portfolio = () => {
         target="_blank"
         rel="noreferrer noopener"
         className={cn('text-gray600', LINK_STYLE)}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
       >
         Github Link
       </a>
       <Spacing size={0} />
-      <span>
+      <span
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         React, Vite, Typescript, styled-components, zustand, storybook
       </span>
-      <span className="text-gray600">2023.05.27 ~ 2023.07.08</span>
-      <span className="font-bold">Description</span>
-      <span className="text-gray600">컴포넌트에 대한 이해와 추상화</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        2023.05.27 ~ 2023.07.08
+      </span>
+      <span
+        className="font-bold"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        Description
+      </span>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        컴포넌트에 대한 이해와 추상화
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           사용성이 높아진 컴포넌트와 코드 품질의 향상을 위해 추상화를
           진행하였습니다.
@@ -98,8 +199,20 @@ export const Portfolio = () => {
         </li>
       </ul>
       <Spacing size={0} />
-      <span className="text-gray600">쓰로틀링, 무한스크롤 구현</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        쓰로틀링, 무한스크롤 구현
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           쓰로틀링을 사용하지 않고 스크롤 이벤트에 따라 무한스크롤을 구현하려고
           하니 스크롤 이벤트가 연속적으로 발생하는 것을 확인했습니다.
@@ -114,8 +227,20 @@ export const Portfolio = () => {
         </li>
       </ul>
       <Spacing size={0} />
-      <span className="text-gray600">스토리북 적용과 뷰 테스트</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        스토리북 적용과 뷰 테스트
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           원하는 컴포넌트만 개별적으로 확인할 수 있기 때문에 편리하게 컴포넌트의
           테스트가 가능하였습니다.
@@ -129,8 +254,20 @@ export const Portfolio = () => {
         </li>
       </ul>
       <Spacing size={0} />
-      <span className="text-gray600">반응형 구현</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        반응형 구현
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           media query와 react-responsive를 사용하여 반응형을 구현하였습니다.
         </li>
@@ -144,8 +281,20 @@ export const Portfolio = () => {
         </li>
       </ul>
       <Spacing size={0} />
-      <span className="text-gray600">라이브러리를 선택하는 기준 정립</span>
-      <ul className={LIST_STYLE}>
+      <span
+        className="text-gray600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        라이브러리를 선택하는 기준 정립
+      </span>
+      <ul
+        className={LIST_STYLE}
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
         <li>
           라이브러리를 선택함에 있어서 기준을 가지고 선택했다기보다는 많은
           사람들이 정리해놓은 자료들이 많아서 사용한 경우가 대다수였습니다.

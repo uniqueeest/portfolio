@@ -36,7 +36,7 @@ export default function Home() {
       <Line
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="2400"
+        data-aos-duration="1000"
       />
       <Skill />
       <Line
@@ -45,9 +45,17 @@ export default function Home() {
         data-aos-duration="1000"
       />
       <WorkExperience />
-      <Line />
+      <Line
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      />
       <Portfolio />
-      <Line />
+      <Line
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      />
       <Education />
       <Spacing size={24} />
     </section>

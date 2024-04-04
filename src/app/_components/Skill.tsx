@@ -1,24 +1,14 @@
-'use client';
-
-import { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-
 import { Flex, SectionTitle } from '@/components';
 import { LIST_STYLE } from '@/constants/style';
 
 export const Skill = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <Flex align="start" gap={12} className="text-18">
       <SectionTitle
         className="text-blue"
         size="medium"
         data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         Skill
@@ -27,7 +17,7 @@ export const Skill = () => {
         size="small"
         tag="h3"
         data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         Front-End
@@ -35,7 +25,7 @@ export const Skill = () => {
       <ul
         className={LIST_STYLE}
         data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         <li>JavaScript, React, Next js, TypeScript, HTML/CSS</li>
@@ -58,7 +48,7 @@ export const Skill = () => {
         size="small"
         tag="h3"
         data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         Back-End
@@ -79,7 +69,7 @@ export const Skill = () => {
         size="small"
         tag="h3"
         data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         Database
@@ -87,7 +77,7 @@ export const Skill = () => {
       <ul
         className={LIST_STYLE}
         data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
+        data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
         <li>MongoDB</li>
