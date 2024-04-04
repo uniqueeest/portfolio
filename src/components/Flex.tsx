@@ -3,6 +3,7 @@ interface FlexProps {
   justify?: string;
   direction?: 'column' | 'row';
   gap?: number;
+  className?: string;
   children: React.ReactNode;
 }
 
@@ -11,6 +12,7 @@ export const Flex = ({
   justify = 'center',
   direction = 'column',
   gap,
+  className,
   children,
 }: FlexProps) => {
   return (
@@ -22,6 +24,7 @@ export const Flex = ({
         justifyContent: justify,
         gap: gap && `${gap}px`,
       }}
+      className={className}
     >
       {children}
     </div>
