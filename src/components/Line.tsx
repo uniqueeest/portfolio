@@ -5,7 +5,7 @@ interface LineProps extends HTMLAttributes<HTMLHRElement> {
   color?: string;
 }
 
-export const Line = ({ border, color }: LineProps) => {
+export const Line = ({ border, color, ...props }: LineProps) => {
   return (
     <hr
       style={{
@@ -14,6 +14,7 @@ export const Line = ({ border, color }: LineProps) => {
           color ? color : '#dee2e6'
         }`,
       }}
+      {...props}
     />
   );
 };
