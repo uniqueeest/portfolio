@@ -21,7 +21,6 @@ export const Contact = () => {
           alt="sam_main"
           className="rounded-full object-cover object-top w-[300px] h-[300px]"
           data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
           data-aos-duration="1000"
         />
       </picture>
@@ -34,14 +33,9 @@ export const Contact = () => {
             height={24}
             alt="emailIcon"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
             data-aos-duration="1000"
           />
-          <a
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1000"
-          >
+          <a data-aos="fade-up" data-aos-duration="1000">
             dbswo9795@gmail.com
           </a>
         </Flex>
@@ -52,8 +46,7 @@ export const Contact = () => {
             height={24}
             alt="linkedInIcon"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1200"
+            data-aos-duration="1000"
           />
           <a
             href="https://www.linkedin.com/in/%EC%9C%A4%EC%9E%AC-%EC%B5%9C-86572727b/"
@@ -61,8 +54,7 @@ export const Contact = () => {
             rel="noreferrer noopener"
             className={LINK_STYLE}
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1200"
+            data-aos-duration="1000"
           >
             LinkedIn
           </a>
@@ -74,8 +66,7 @@ export const Contact = () => {
             height={24}
             alt="githubIcon"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1400"
+            data-aos-duration="1000"
           />
           <a
             href="https://github.com/uniqueeest"
@@ -83,8 +74,7 @@ export const Contact = () => {
             rel="noreferrer noopener"
             className={LINK_STYLE}
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1400"
+            data-aos-duration="1000"
           >
             GitHub
           </a>
@@ -96,17 +86,14 @@ export const Contact = () => {
             height={24}
             alt="notionIcon"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1600"
+            data-aos-duration="1000"
           />
           <a
             href="https://scalloped-pencil-870.notion.site/194399ffd80e436bb9cdf4a5f1546588"
             target="_blank"
             rel="noreferrer noopener"
-            className={LINK_STYLE}
             data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1600"
+            data-aos-duration="1000"
           >
             Notion
           </a>
