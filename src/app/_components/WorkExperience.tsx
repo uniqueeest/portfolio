@@ -14,6 +14,7 @@ export const WorkExperience = () => {
         Work Experience
       </SectionTitle>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -23,6 +24,7 @@ export const WorkExperience = () => {
         퀀터스 테크놀로지스
       </SectionTitle>
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -30,7 +32,7 @@ export const WorkExperience = () => {
         Front-End Developer
       </span>
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -39,7 +41,7 @@ export const WorkExperience = () => {
       </span>
       <Spacing size={0} />
       <span
-        className="font-bold"
+        className="font-bold dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -58,7 +60,7 @@ export const WorkExperience = () => {
         </li>
       </ul>
       <span
-        className="font-bold"
+        className="font-bold dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"

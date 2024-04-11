@@ -11,10 +11,16 @@ import {
 export default function Home() {
   return (
     <section className="flex flex-col gap-6 py-20 w-[1020px]">
-      <SectionTitle size="large" data-aos="fade-up" data-aos-duration="1000">
+      <SectionTitle
+        className="dark:text-gray100"
+        size="large"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         기술 이력서
       </SectionTitle>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"

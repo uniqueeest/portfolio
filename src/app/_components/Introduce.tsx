@@ -13,6 +13,7 @@ export const Introduce = () => {
         Introduce
       </SectionTitle>
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -23,6 +24,7 @@ export const Introduce = () => {
         정리하는 것을 즐깁니다.
       </span>
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -32,6 +34,7 @@ export const Introduce = () => {
         저만의 코드로 풀어나가고자 노력합니다.
       </span>
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"

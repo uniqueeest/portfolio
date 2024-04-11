@@ -14,6 +14,7 @@ export const Skill = () => {
         Skill
       </SectionTitle>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -45,6 +46,7 @@ export const Skill = () => {
         </li>
       </ul>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -66,6 +68,7 @@ export const Skill = () => {
         </li>
       </ul>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"

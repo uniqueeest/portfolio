@@ -15,6 +15,7 @@ export const Portfolio = () => {
         Portfolio
       </SectionTitle>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -47,6 +48,7 @@ export const Portfolio = () => {
       </a>
       <Spacing size={0} />
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -54,7 +56,7 @@ export const Portfolio = () => {
         사용기술 : Next js, Typescript, tailwind css
       </span>
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -62,7 +64,7 @@ export const Portfolio = () => {
         2023.12.01 ~ 2024.04.03
       </span>
       <span
-        className="font-bold"
+        className="font-bold dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -81,7 +83,7 @@ export const Portfolio = () => {
         </li>
       </ul>
       <span
-        className="font-bold"
+        className="font-bold dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -116,6 +118,7 @@ export const Portfolio = () => {
       />
       <Spacing size={0} />
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -148,6 +151,7 @@ export const Portfolio = () => {
       </a>
       <Spacing size={0} />
       <span
+        className="dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -155,7 +159,7 @@ export const Portfolio = () => {
         React, Vite, Typescript, styled-components, zustand, storybook
       </span>
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -163,7 +167,7 @@ export const Portfolio = () => {
         2023.05.27 ~ 2023.07.08
       </span>
       <span
-        className="font-bold"
+        className="font-bold dark:text-gray100"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -171,7 +175,7 @@ export const Portfolio = () => {
         Description
       </span>
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -200,7 +204,7 @@ export const Portfolio = () => {
       </ul>
       <Spacing size={0} />
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -228,7 +232,7 @@ export const Portfolio = () => {
       </ul>
       <Spacing size={0} />
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -255,7 +259,7 @@ export const Portfolio = () => {
       </ul>
       <Spacing size={0} />
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
@@ -282,7 +286,7 @@ export const Portfolio = () => {
       </ul>
       <Spacing size={0} />
       <span
-        className="text-gray600"
+        className="text-gray600 dark:text-gray300"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"

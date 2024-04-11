@@ -35,7 +35,11 @@ export const Contact = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           />
-          <a data-aos="fade-up" data-aos-duration="1000">
+          <a
+            className="dark:text-gray100"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             dbswo9795@gmail.com
           </a>
         </Flex>
@@ -92,6 +96,7 @@ export const Contact = () => {
             href="https://scalloped-pencil-870.notion.site/194399ffd80e436bb9cdf4a5f1546588"
             target="_blank"
             rel="noreferrer noopener"
+            className={LINK_STYLE}
             data-aos="fade-up"
             data-aos-duration="1000"
           >

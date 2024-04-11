@@ -13,6 +13,7 @@ export const Education = () => {
         Education
       </SectionTitle>
       <SectionTitle
+        className="dark:text-gray100"
         size="small"
         tag="h3"
         data-aos="fade-up"
