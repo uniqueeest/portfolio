@@ -1,6 +1,7 @@
 import { Line, SectionTitle, Spacing } from '@/components';
 import {
   Contact,
+  DarkMode,
   Education,
   Introduce,
   Portfolio,
@@ -10,7 +11,8 @@ import {
 
 export default function Home() {
   return (
-    <section className="flex flex-col gap-6 py-20 w-[1020px]">
+    <section className="flex flex-col gap-6 pt-10 pb-20 w-[1020px]">
+      <DarkMode />
       <SectionTitle
         className="dark:text-gray100"
         size="large"
