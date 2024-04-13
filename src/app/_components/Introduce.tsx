@@ -2,9 +2,9 @@ import { Flex, SectionTitle } from '@/components';
 
 export const Introduce = () => {
   return (
-    <Flex align="start" gap={12} className="text-18">
+    <Flex align="start" gap={12} className="text-18 sm:text-16">
       <SectionTitle
-        className="text-blue"
+        className="text-blue sm:text-18"
         size="medium"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"

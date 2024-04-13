@@ -4,9 +4,9 @@ import { cn } from '@/utils';
 
 export const Portfolio = () => {
   return (
-    <Flex align="start" gap={12} className="text-18">
+    <Flex align="start" gap={12} className="text-18 sm:text-16">
       <SectionTitle
-        className="text-blue"
+        className="text-blue sm:text-18"
         size="medium"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
@@ -15,7 +15,7 @@ export const Portfolio = () => {
         Portfolio
       </SectionTitle>
       <SectionTitle
-        className="dark:text-gray100"
+        className="dark:text-gray100 sm:text-18"
         size="small"
         tag="h3"
         data-aos="fade-up"
@@ -118,7 +118,7 @@ export const Portfolio = () => {
       />
       <Spacing size={0} />
       <SectionTitle
-        className="dark:text-gray100"
+        className="dark:text-gray100 sm:text-18"
         size="small"
         tag="h3"
         data-aos="fade-up"

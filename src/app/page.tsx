@@ -11,10 +11,10 @@ import {
 
 export default function Home() {
   return (
-    <section className="flex flex-col gap-6 pt-10 pb-20 w-[1020px]">
+    <section className="flex flex-col gap-6 pt-10 pb-20 w-[1020px] sm:gap-4 sm:pt-5 sm:pb-5 sm:w-[360px]">
       <DarkMode />
       <SectionTitle
-        className="dark:text-gray100"
+        className="dark:text-gray100 sm:text-20"
         size="large"
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -22,7 +22,7 @@ export default function Home() {
         기술 이력서
       </SectionTitle>
       <SectionTitle
-        className="dark:text-gray100"
+        className="dark:text-gray100 sm:text-18"
         size="small"
         tag="h3"
         data-aos="fade-up"

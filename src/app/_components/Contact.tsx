@@ -14,17 +14,23 @@ export const Contact = () => {
   }, []);
 
   return (
-    <Flex direction="row" justify="start" align="start" gap={64}>
+    <Flex
+      className="sm:flex-col sm:items-center"
+      direction="row"
+      justify="start"
+      align="start"
+      gap={64}
+    >
       <picture className="shrink-0">
         <img
           src="/images/sam.webp"
           alt="sam_main"
-          className="rounded-full object-cover object-top w-[300px] h-[300px]"
+          className="rounded-full object-cover object-top w-[300px] h-[300px] sm:mt-10 sm:mb-[-40px] sm:w-[250px] sm:h-[250px]"
           data-aos="fade-up"
           data-aos-duration="1000"
         />
       </picture>
-      <Flex align="start" gap={16}>
+      <Flex className="sm:self-start" align="start" gap={16}>
         <Spacing size={32} />
         <Flex direction="row" gap={16}>
           <Image
